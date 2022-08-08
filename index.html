@@ -14,212 +14,93 @@
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/TodosJuntosJAA/site/main/img/android-chrome-192x192.png" type="image/x-icon">
         <title>Cardápio</title>
         <style>
-            /*@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:100,400);
-body {
-    background:rgb(223,189,150);
-    font-family: 'Josefin Sans', sans-serif;
-    text-align:center;
-}
-.coffeeee{
-    margin-top: -7%;
-}
-.cup {
-    width:76px;
-    height:76px;
-    background:#dedede;
-    border-radius:50%;
-    position: relative;
-    left:50%;
-    margin-left:-38px;
-    top:100px;
-    box-shadow:-4px -1px 0 rgba(0,0,0,0.2);
-}
-.cup:after{
-    content:"";
-    width:66px;
-    height:66px;
-    position:absolute;
-    border-radius:50%;
-    background:linear-gradient(-45deg, #cbcbcb, #f2f2f2 );
-    left:50%;
-    margin-left:-33px;
-    top:5px;
-}
-
-.coffee{
-    width:47px;
-    height:47px;
-    background:#613317;
-    border-radius:50%;
-    position:absolute;
-    left:50%;
-    margin-left:-25px;
-    z-index:1;
-    top:50%;
-    margin-top:-26px;
-    border:3px solid #e9e9e9;
-    box-shadow:-3px 2px 0 rgba(0,0,0,0.1);
-    transform:rotate(30deg);
-    transition:transform 0.3s;
-}
-.coffee:after{ 
-    content:"";
-    width:15px;
-    height:8px;
-    position:absolute;
-    left:-19px;
-    top:18px;
-    background:linear-gradient(90deg, #d6d6d6, #aeaeae);
-    box-shadow:0px 2px 0 rgba(0,0,0,0.2);
-}
-.coffee:before {
-    content:"";
-    width:47px;
-    height:47px;
-    background-image: radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 95%), radial-gradient(5% 9%, ellipse, rgba(255,255,255,0.1), transparent 5%), radial-gradient(0% 0%, ellipse, rgba(255,255,255,0.3), transparent 55%);
-    background-image: -webkit-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 95%), -webkit-radial-gradient(5% 9%, ellipse, rgba(255,255,255,0.1), transparent 5%), -webkit-radial-gradient(0% 0%, ellipse, rgba(255,255,255,0.3), transparent 55%);
-    background-image: -moz-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 95%), -moz-radial-gradient(5% 9%, ellipse, rgba(255,255,255,0.1), transparent 5%), -moz-radial-gradient(0% 0%, ellipse, rgba(255,255,255,0.3), transparent 55%);
-    position:absolute;
-    left:0;
-    border-radius:50%;
-}
-.cup:hover .coffee {
-    transform:rotate(15deg);
-}
-.smoke {
-    width:80px;
-    height:100px; 
-     
-    position:relative;
-    left:50%;
-    margin-left:-40px;
-    margin-bottom: -1%;
-    background-image: -webkit-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -webkit-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -webkit-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%), -webkit-radial-gradient(55% 35%, ellipse, rgba(255,255,255,0.2), transparent 15%);
-    background-image: -moz-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -moz-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -moz-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%), -moz-radial-gradient(55% 35%, ellipse, rgba(255,255,255,0.2), transparent 15%);
-    background-image: radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%), radial-gradient(55% 35%, ellipse, rgba(255,255,255,0.2), transparent 15%);
-    animation:bk 11s infinite ;
-}
-.smoke:after {
-    content:"";
-    width:100px;
-    height:100px; 
-
-    position:absolute;
-    background-image: -webkit-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -webkit-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -webkit-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%);
-    background-image: -moz-radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), -moz-radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), -moz-radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%);
-    background-image: radial-gradient(75% 59%, ellipse, rgba(255,255,255,0.2), transparent 25%), radial-gradient(25% 70%, ellipse, rgba(255,255,255,0.2), transparent 15%), radial-gradient(35% 61%, ellipse, rgba(255,255,255,0.2), transparent 10%);
-    animation:bk 2s 1s infinite;
-}
-@keyframes bk {
-    0%{ background-position:0 0; opacity:0; }
-    15%, 85% { opacity:1;}
-    100%{ background-position:-20px -25px, -5px -25px, 0px -25px, 0px -25px; opacity:0;}
-}
-.txt{
-    position:absolute;
-    top:184px;
-    width:150px;
-    left:50%;
-    margin-left:-75px;
-}
-.txt a{
-    text-decoration:none;
-    color:#613317;
-}
-.txt a:hover {
-    text-decoration:underline;
-}*/
-
-body {
-    background:rgb(223,189,150);
-    font-family: 'Josefin Sans', sans-serif;
-    text-align:center;
-}
-  @keyframes wave {
-    0% {opacity: 0; transform: translateY(15px)}
-    50% {opacity: 1; transform: translateY(0)}
-    100% {opacity: 0; transform: translateY(-15px)}
-  }
-  .loader ul {
-   
-    padding: 0;
-
-    width: 60px;
-    text-align: center;
-    animation: wave 2.5s infinite linear;
-    animation-fill-mode: forwards;
-  }
-  .loader li {
-    display: inline-block;
-    background: #f7f0de;
-    height: 30px;
-    width: 9px;
-    border-radius: 0 100%;
-    transform: rotate(12deg);
-  }
-  .cup {
-    background: #f7f0de;
-    width: 60px;
-    height: 54px;
-    border-radius: 0 0 50% 50%;
-    position: relative;
-  }
-  .cup:before {
-    content: "";
-    justify-content: center;
-    position: absolute;
-    width: 66px;
-    height: 20px;
-    border-radius: 50%;
-    background: inherit;
-    left: -3px;
-    top: -10px;
-  }
-  .cup:after {
-    content: "";
-    justify-content: center;
-    position: absolute;
-    width: 56px;
-    height: 12px;
-    border-radius: 50%;
-    background: #3A2F28;
-    left: 2px;
-    top: -6px;
-  }
-  .loader span {
-    background: #f7f0de;
-    width: 13px;
-    height: 20px;
-    position: absolute; 
-    right: -13px;
-    top: 10px;
-    border-radius: 0 50% 50% 0;
-  }
-  .loader span:before {
-    content: "";
-    justify-content: flex-start;
-    position: absolute;
-    top: 4px;
-    left: 0;
-    background:rgb(223,189,150);
-    width: 10px;
-    height: 12px;
-    border-radius: 0 50% 50% 0;
-  }
-  .loader span:after {
-    content: "";
-    justify-content: flex-start;
-    position: absolute;
-    top: 40px;
-    left: -50px;
-    background: #f7f0de;
-    width: 40px;
-    height: 8px;
-    border-radius: 50%;
-  }
-  .tudo{
-    display: inline-block;
-  }
+            ::-webkit-scrollbar{
+                width: 10px;
+            }::-webkit-scrollbar-track{
+                background:rgb(223,189,150);
+                border-radius: 30px;
+            }::-webkit-scrollbar-thumb{
+                background: #000000;
+                border-radius: 30px;
+            }body {
+                background:rgb(223,189,150);
+                font-family: 'Josefin Sans', sans-serif;
+                text-align:center;
+            }@keyframes wave {
+                0% {opacity: 0; transform: translateY(15px)}
+                50% {opacity: 1; transform: translateY(0)}
+                100% {opacity: 0; transform: translateY(-15px)}
+            }.loader ul {
+                padding: 0;
+                width: 60px;
+                text-align: center;
+                animation: wave 2.5s infinite linear;
+                animation-fill-mode: forwards;
+            }.loader li {
+                display: inline-block;
+                background: #f7f0de;
+                height: 30px;
+                width: 9px;
+                border-radius: 0 100%;
+                transform: rotate(12deg);
+            }.cup {
+                background: #f7f0de;
+                width: 60px;
+                height: 54px;
+                border-radius: 0 0 50% 50%;
+                position: relative;
+            }.cup:before {
+                content: "";
+                justify-content: center;
+                position: absolute;
+                width: 66px;
+                height: 20px;
+                border-radius: 50%;
+                background: inherit;
+                left: -3px;
+                top: -10px;
+            } .cup:after {
+                content: "";
+                justify-content: center;
+                position: absolute;
+                width: 56px;
+                height: 12px;
+                border-radius: 50%;
+                background: #3A2F28;
+                left: 2px;
+                top: -6px;
+            }.loader span {
+                background: #f7f0de;
+                width: 13px;
+                height: 20px;
+                position: absolute; 
+                right: -13px;
+                top: 10px;
+                border-radius: 0 50% 50% 0;
+            }
+            .loader span:before {
+                content: "";
+                justify-content: flex-start;
+                position: absolute;
+                top: 4px;
+                left: 0;
+                background:rgb(223,189,150);
+                width: 10px;
+                height: 12px;
+                border-radius: 0 50% 50% 0;
+            }.loader span:after {
+                content: "";
+                justify-content: flex-start;
+                position: absolute;
+                top: 40px;
+                left: -50px;
+                background: #f7f0de;
+                width: 40px;
+                height: 8px;
+                border-radius: 50%;
+            }.tudo{
+                display: inline-block;
+            }
         </style>
     </head>
     <body>
@@ -298,29 +179,29 @@ body {
                         <tr>
                             <hr>
                             <th scope="row">Café da manhã</th>
-                            <td>Macarrão com salsicha</td>
-                            <td>Canja</td>
-                            <td>Pão com café</td>
-                            <td>Pão com patê</td>
-                            <td>Cuscuz</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
                         </tr>
                 
                         <tr>
                             <th scope="row">Almoço</th>
-                            <td>Estrogonofe</td>
-                            <td>Creme de galinha</td>
-                            <td>Frango com molho talvez mistura de carne</td>
-                            <td>Carne</td>
-                            <td>Feijoada</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
                         </tr>
               
                         <tr>
                             <th scope="row">Lanche</th>
-                            <td>Suprise</td>
-                            <td>Café com pão</td>
-                            <td>Cuscuz com café</td>
-                            <td>Salada de frutas</td>
-                            <td>Bolo</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
                         </tr>
                     </tbody>
                 </table>
@@ -346,90 +227,90 @@ body {
                         <tr>
                             <!--1° a serem chamados-->
                             <th scope="row">1°</th>
+                            <td>2° Info-A</td>
+                            <td>3° S.D.T</td>
+                            <td>3° Enf</td>
+                            <td>1° Info</td>
                             <td>1° Contabi</td>
-                            <td>1° Enf</td>
-                            <td>3° Info</td>
-                            <td>2° Info-B</td>
-                            <td>2° Enf</td>
                         </tr>
                         <tr>
                             <!--2° a serem chamados-->
                             <th scope="row">2°</th>
+                            <td>2° Enf</td>
+                            <td>2° Info-A</td>
+                            <td>3° S.D.T</td>
+                            <td>3° Enf</td>
                             <td>1° Info</td>
-                            <td>1° Contabi</td>
-                            <td>1° Enf</td>
-                            <td>3° Info</td>
-                            <td>2° Info-B</td>
                         </tr>
                     
                         <tr>
                             <!--3° a serem chamados-->
                             <th scope="row">3°</th>
+                            <td>2° Info-B</td>
+                            <td>2° Enf</td>
+                            <td>2° Info-A</td>
+                            <td>3° S.D.T</td>
                             <td>3° Enf</td>
-                            <td>1° Info</td>
-                            <td>1° Contabi</td>
-                            <td>1° Enf</td>
-                            <td>3° Info</td>
                         </tr>
               
                         <tr>
                             <!--4° a serem chamados-->
                             <th scope="row">4°</th>
+                            <td>3° Info</td>
+                            <td>2° Info-B</td>
+                            <td>2° Enf</td>
+                            <td>2° Info-A</td>
                             <td>3° S.D.T</td>
-                            <td>3° Enf</td>
-                            <td>1° Info</td>
-                            <td>1° Contabi</td>
-                            <td>1° Enf</td>
                         </tr>
                     
                         <tr>
                             <!--5° a serem chamados-->
                             <th scope="row">5°</th>
+                            <td>1° Enf</td>
+                            <td>3° Info</td>
+                            <td>2° Info-B</td>
+                            <td>2° Enf</td>
                             <td>2° Info-A</td>
-                            <td>3° S.D.T</td>
-                            <td>3° Enf</td>
-                            <td>1° Info</td>
-                            <td>1° Contabi</td>
                         </tr>
                 
                         <tr>
                             <!--6° a serem chamados-->
                             <th scope="row">6°</th>
-                            <td>2° Enf</td>
-                            <td>2° Info-A</td>
-                            <td>3° S.D.T</td>
+                            <td>1° Contabi</td>
+                            <td>1° Enf</td>
+                            <td>3° Info</td>
                             <td>2° Info-B</td>
-                            <td>3° Enf</td>
+                            <td>2° Enf</td>
                         </tr>
               
                         <tr>
                             <!--7° a serem chamados-->
                             <th scope="row">7°</th>
+                            <td>1° Info</td>
+                            <td>1° Contabi</td>
+                            <td>1° Enf</td>
+                            <td>3° Info</td>
                             <td>2° Info-B</td>
-                            <td>2° Enf</td>
-                            <td>2° Info-A</td>
-                            <td>3° S.D.T</td>
-                            <td>3° Enf</td>
                         </tr>
               
                         <tr>
                             <!--8° a serem chamados-->
                             <th scope="row">8°</th>
+                            <td>3° Enf</td>
+                            <td>1° Info</td>
+                            <td>1° Contabi</td>
+                            <td>1° Enf</td>
                             <td>3° Info</td>
-                            <td>2° Info-B</td>
-                            <td>2° Enf</td>
-                            <td>2° Info-A</td>
-                            <td>3° S.D.T</td>
                          </tr>
             
                          <tr>
                             <!--9° a serem chamados-->
                             <th scope="row">9°</th>
+                            <td>3° S.D.T</td>
+                            <td>3° Enf</td>
+                            <td>1° Info</td>
+                            <td>1° Contabi</td>
                             <td>1° Enf</td>
-                            <td>3° Info</td>
-                            <td>2° Info-B</td>
-                            <td>2° Enf</td>
-                            <td>2° Info-A</td>  
                         </tr>
                     </tbody>
                 </table>
